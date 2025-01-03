@@ -7,25 +7,25 @@ const reports = [
     {
         num: '01',
         title: 'Sitios Web',
-        descrption: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+        descrption: 'En un mundo donde la mayoría de las decisiones de compra comienzan en línea, tener un sitio web profesional y funcional no es solo una ventaja es una necesidad. ', 
         href: "",
     },
     {
         num: '02',
-        title: 'Diseño UI/UX',
-        descrption: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+        title: 'Aplicaciones Móviles',
+        descrption: 'Tener una aplicación móvil personalizada puede ser el punto clave para conectar con tus clientes, mejorar su experiencia y potenciar tus resultados de negocio.', 
         href: "",
     },
     {
         num: '03',
-        title: 'Diseño de Logos',
-        descrption: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+        title: 'Chatbots',
+        descrption: 'La atención al cliente es un factor clave para el éxito de cualquier negocio. Un chatbot puede ayudarte a mejorar la experiencia y optimizar procesos.', 
         href: "",
     },
     {
         num: '04',
         title: 'Aplicaciones Web',
-        descrption: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+        descrption: 'Permíteme mostrarte cómo podemos ayudarte a optimizar tus procesos, mejorar la experiencia de tus usuarios y alcanzar tus objetivos con una solución web innovadora.', 
         href: "",
     },
     

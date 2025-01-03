@@ -3,8 +3,8 @@
 import { FaHtml5, FaJs, FaCss3 , FaReact, FaFigma, FaNodeJs, FaPython , FaPhp} from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs , SiAstro,  } from "react-icons/si";
 const about = {
-    title: "About Me",
-    description: "I am a front-end developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, React, and Node.js. I am always looking to learn new things and improve my skills.",
+    title: "Acerca de mi",
+    description: "Soy un desarrollador front-end apasionado por crear sitios web hermosos y funcionales. Tengo experiencia con HTML, CSS, JavaScript, React y Node.js. Siempre estoy buscando aprender cosas nuevas y mejorar mis habilidades.",
     
     info: [
         {
@@ -13,7 +13,7 @@ const about = {
         },
         {
             fielName: "Celular",
-            fielValue: "0984122914"
+            fielValue: "(+593)0984122914"
         },
         {
             fielName: "Nacionalidad",
@@ -36,13 +36,13 @@ const about = {
 
 const experience = {
     icon: '',
-    title: "My Experience",
-    description:"lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Mi Experiencia",
+    description:"Aquí encontraras mi experiencia laboral y educativa.",
     items:[
         {
             company: "Instituto Tecnológico Superior Quito",
             position: "Pasante Soporte Técnico",
-            duration:" 3 meses-2024"
+            duration:" 6 meses - 2024"
         },
         {
             company: "Edesa",
@@ -59,7 +59,7 @@ const experience = {
 const education = {
     icon: '',
     title: "Mi Educación",
-    description:"lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:"En esta sección encontrarás mi educación formal.",
     items:[
         {
             institucion: "Instituto Tecnológico Superior Paradox",
@@ -82,7 +82,7 @@ const education = {
 
 const skills = {
     title:"Mis Habilidades",
-    description:"lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:"Aquí encontrarás una lista de mis habilidades técnicas.",
     skillList:[
         {
             icon: <FaHtml5/>,
