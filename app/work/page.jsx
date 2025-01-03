@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import React,{useState} from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import "swiper/css";
-import { BsArrowUpRight, BaGithub } from 'react-icons/bs';
+import { BsArrowUpRight, BaGithub, BsGithub } from 'react-icons/bs';
 
 import {
     Tooltip,
@@ -13,8 +13,8 @@ import {
 
 } from "@/components/ui/tooltip"
 
-import link from "next/link";
-import Image from 'next/image';
+import Link from "next/link";
+import image from 'next/image';
 import { Description } from '@radix-ui/react-dialog';
 
 const projects =[
@@ -96,6 +96,37 @@ const Work = () =>{
                         } )
                             }
                     </ul>
+                    {/**border */}
+                    <div className='border-t-2 border-white/20 '>
+                    {/**buttons */}
+                    <div>
+                        <Link href={project.live}>
+                            <TooltipProvider delayDuration={100}>
+                                <Tooltip>
+                                    <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group '>
+                                    <BsArrowUpRight className='text-white text-3xl group-hover:text-accent'/>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>Live project</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
+                        </Link>
+                        <Link href={project.github}>
+                            <TooltipProvider delayDuration={100}>
+                                <Tooltip>
+                                    <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group '>
+                                    <BsGithub className='text-white text-3xl group-hover:text-accent'/>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>Github repository</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
+                        </Link>
+                        {/**2.24.50 */}
+                    </div>
+                    </div>
                 </div>
                 <div className='w-full xl:w-[50%]'>slider</div>
             </div>
