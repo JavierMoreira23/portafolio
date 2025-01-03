@@ -1,6 +1,6 @@
 "use client";
 
-import { FaHtml5, FaJs, FaCss3 , FaReact, FaFigma, FaNodeJs, FaPython} from "react-icons/fa";
+import { FaHtml5, FaJs, FaCss3 , FaReact, FaFigma, FaNodeJs, FaPython , FaPhp} from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs , SiAstro,  } from "react-icons/si";
 const about = {
     title: "About Me",
@@ -123,6 +123,10 @@ const skills = {
         {
             icon: <FaPython/>,
             name: "Python",
+        },
+        {
+            icon: <FaPhp/>,
+            name: "Php",
         },
     ],
 };
