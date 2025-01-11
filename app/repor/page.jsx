@@ -6,26 +6,27 @@ import Link from "next/link";
 const reports = [
     {
         num: 'Cursando',
-        title: '',
-        descrption: 'En un mundo donde la mayoría de las decisiones de compra comienzan en línea, tener un sitio web profesional y funcional no es solo una ventaja es una necesidad. ', 
+        title: 'React',
+        descrption: 'Especializandome más en React, aprendiendo en cursos en el programa de de Alura Latam - Oracle Education   ', 
+        href: "https://www.aluracursos.com/",
+    },
+    {
+        num: 'Proximamente',
+        title: 'Ecommerce con panel de administración  ',
+        descrption: 'Proyecto en construcción con tecnología de react, next-15 ', 
         href: "",
     },
     {
-        num: '02',
-        title: 'Aplicaciones Móviles',
-        descrption: 'Tener una aplicación móvil personalizada puede ser el punto clave para conectar con tus clientes, mejorar su experiencia y potenciar tus resultados de negocio.', 
-        href: "",
+        num: 'Recurso',
+        title: 'Devs y Diseñadores UX',
+        descrption: 'Toda la inspiración que necesitas tiene una gran gama de diseños de forma ordenada y clara que en cada sección hay una lluvia de ideas. https://calltoinspiration.com/', 
+        href: "https://calltoinspiration.com/",
+        
     },
     {
-        num: '03',
-        title: 'Chatbots',
-        descrption: 'La atención al cliente es un factor clave para el éxito de cualquier negocio. Un chatbot puede ayudarte a mejorar la experiencia y optimizar procesos.', 
-        href: "",
-    },
-    {
-        num: '04',
-        title: 'Aplicaciones Web',
-        descrption: 'Permíteme mostrarte cómo podemos ayudarte a optimizar tus procesos, mejorar la experiencia de tus usuarios y alcanzar tus objetivos con una solución web innovadora.', 
+        num: 'Información',
+        title: 'Digitalizar empresa',
+        descrption: 'Digitalizar tu empresa es fundamental en el mundo actual porque te permite adaptarte a las demandas del mercado, mejorar la eficiencia operativa y ofrecer una mejor experiencia a tus clientes. ', 
         href: "",
     },
     
@@ -49,7 +50,7 @@ const Repor = () =>{
                             {/*top */}
                             <div className=" w-full flex justify-between items-center">
                                 <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{repor.num}</div>
-                                <Link href={repor.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex
+                                <Link  target="_blank" href={repor.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex
                                  justify-center items-center hover:-rotate-45">
                                 <BsArrowDownRight className="text-primary text-3xl"/>
                                 </Link>
