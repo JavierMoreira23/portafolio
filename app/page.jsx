@@ -21,7 +21,7 @@ const Home = () =>{
                   {/* botones y redes sociales*/}
                   <div className="flex flex-col xl:flex-row items-center gap-4">
                     <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-                      <span>Descargar CV</span>
+                      <a href="../assets/cvjmds.pdf" download="CV Javier Moreira">Descargar Cv</a>
                       <FiDownload className="text-xl"/>
                     </Button>
                     <div className="mb-8 xl:mb-1">

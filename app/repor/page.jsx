@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const reports = [
     {
-        num: '01',
-        title: 'Sitios Web',
+        num: 'Cursando',
+        title: '',
         descrption: 'En un mundo donde la mayoría de las decisiones de compra comienzan en línea, tener un sitio web profesional y funcional no es solo una ventaja es una necesidad. ', 
         href: "",
     },
