@@ -77,6 +77,36 @@ const projects =[
         live: 'https://monkeytype-snowy.vercel.app',
         github:'https://github.com/JavierMoreira23/Monkeytype',
     },
+    {
+        num: "05",
+        category:"Game",
+        title:"project 5",
+        description : "Recreación de videojuego de super mario bros con ayuda de Phaser",
+        stack: [
+            {name : "Html 5"},
+            {name : "Css 3"},
+            {name : "Javascript"},
+            {name : "Phaser"},
+        ],
+        Image: "/assets/proyectos/project5.png",
+        live: 'https://supermario-phi.vercel.app',
+        github:'https://github.com/JavierMoreira23/Super_Mario',
+    },
+    {
+        num: "06",
+        category:"Landing Page",
+        title:"project 6",
+        description : "Pagina simple de venta de páginas web y sus serivicios",
+        stack: [
+            {name : "React"},
+            {name : "Tailwind CSS"},
+            {name : "Vite"},
+         
+        ],
+        Image: "/assets/proyectos/project6.png",
+        live: 'https://bearplus.vercel.app',
+        github:'https://github.com/JavierMoreira23/sofWeb',
+    },
 
 ];
 
