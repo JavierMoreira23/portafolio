@@ -62,21 +62,7 @@ const Contact = () => {
                         <Input type="direccion" placeholder="Dirección"/>
                     </div>
                     {/**select  < */}
-                    <Select>
-                        <SelectTrigger className="w-full">
-                            <SelectValue placeholder="Seleccione un servicio"></SelectValue>
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectGroup>
-                                <SelectLabel>Seleccione un servicio</SelectLabel>
-                                <SelectItem  value="est">Desarrollo web</SelectItem>
-                                <SelectItem value="cst">Desarrollo de aplicaciones móviles</SelectItem>
-                                <SelectItem value="sst">Desarrollo de chatbot</SelectItem>
-                                <SelectItem value="mst">Cotización</SelectItem>
-                                <SelectItem value="lst">Contratación</SelectItem>
-                            </SelectGroup>
-                        </SelectContent>
-                    </Select>
+                    
                     {/**textarea */}
                     <Textarea className="h-[150px]" placeholder="Escriba un mensaje aquí."/>
                     {/*button */}
